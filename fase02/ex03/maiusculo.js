@@ -1,5 +1,5 @@
 function maiusculo(palavra){
   n=palavra.toUpperCase()
-    return n.substring(0,3) + "" ;
+    return n.substring(0,3) + "a" ;
 }
-console.log (maiusculo("fandango"));
+console.log (maiusculo("cola")); 
