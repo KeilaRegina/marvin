@@ -1,5 +1,4 @@
-function dezAVinte(min,max){
-    min = Math.ceil() 
-    return numero(0,21)
-} 
- console.log(dezAVinte())
+function dezAVinte() {
+ return Math.floor(Math.random () *11+10);
+}
+ console.log(dezAVinte());
