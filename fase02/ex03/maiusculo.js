@@ -1,6 +1,6 @@
 function maiusculo(palavra){
-  n=palavra.toUpperCase();
-  resto=palavra.substring(3) ;
-  return n.substring(0,3) + resto;
-    }
-    console.log (maiusculo("maiusculo"));
+  n=palavra.toUpperCase()
+    return n.substring(0,3) + "a" ;
+    return n.substring(0,3) + palavra.substring(3) ;
+}
+  
