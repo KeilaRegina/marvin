@@ -1,8 +1,8 @@
 function parOuImpar(num){
- if (num%2==0){
+ if (num % 2 == 0) {
  return ("Par");
 }
  else {
- return ("Impar");
+ return ("Ímpar");
 }
 }
