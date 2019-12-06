@@ -1,8 +1,11 @@
 function nove(num){
-if =9
+var x=num.toString();
+var final=x.charAt(x.length-1);
 
-return verdadeiro ; 
-else  "9" ;
-return falso ;
+if (final== 9){
+return true ; 
 }
-console.log(nove(1789));
+else;{
+return false;
+}
+}
